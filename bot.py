@@ -1,4 +1,4 @@
-```python
+
 import logging
 import requests
 from telegram import Update
@@ -55,4 +55,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-```
