@@ -8,7 +8,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Your OpenAI API key and Telegram token
-OPENAI_API_KEY = 'your_openai_api_key'
+OPENAI_API_KEY = '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'
 TELEGRAM_TOKEN = '7117516548:AAHK93XIFjv-cdajI0MXIBGck-QhpScBTMs'
 
 def start(update: Update, context: CallbackContext) -> None:
